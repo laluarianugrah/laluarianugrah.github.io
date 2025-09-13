@@ -1,0 +1,1052 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Frisk - Creative Agency & Portfolio HTML Template</title>
+    <meta name="description" content="Frisk - Creative Agency & Portfolio HTML Template">
+    <meta name="keywords" content="Frisk - Creative Agency & Portfolio HTML Template">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+    header, .header-area, .menu-area, .main-menu { overflow: visible !important; }
+    .main-menu > li { position: relative; }
+    .main-menu .sub-menu { z-index: 9999; }
+    /* kalau class kamu .menu (bukan .main-menu), boleh gandakan */
+    .menu > li { position: relative; }
+    .menu .sub-menu { z-index: 9999; }
+    </style>
+
+
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/imageRevealHover.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css"> <!-- override -->
+    
+</head>
+
+<body>
+    <!--********************************
+   		Code Start From Here
+	******************************** -->
+
+
+
+
+    <!--==============================
+     Preloader
+    ==============================-->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="popup-search-box">
+        <button class="searchClose"><img src="assets/img/icon/close.svg" alt="img"></button>
+        <form action="#">
+            <input type="text" placeholder="Search Here..">
+            <button type="submit"><img src="assets/img/icon/search-white.svg" alt="img"></button>
+        </form>
+    </div>
+
+    <div class="sidemenu-wrapper">
+        <div class="sidemenu-content">
+            <button class="closeButton sideMenuCls"><img src="assets/img/icon/close.svg" alt="icon"></button>
+            <div class="widget footer-widget">
+                <div class="widget-about">
+                    <div class="footer-widget">
+                    <h4 class="widget_title">Kontak</h4>
+                    <div class="footer-text">
+                        <p>
+                        Kompleks Perkantoran KTC, Jalan Bung Hatta No.3,<br>
+                        Kuang, Taliwang, Sumbawa Barat
+                        </p>
+                        <p class="mb-0"><strong>Pelayanan:</strong> Senin – Jumat, 08.00 – 15.30</p>
+                    </div>
+                    </div>
+
+                    <div class="social-btn style2">
+                        <a href="https://web.facebook.com/profile.php?id=61578277864711/">
+                            <span class="link-effect">
+                                <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                                <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                            </span>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a href="contact.html" class="chat-btn gsap-magnetic">Let’s Talk with us</a>
+            </div>
+        </div>
+    </div>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <div class="mobile-menu-wrapper">
+        <div class="mobile-menu-area">
+            <button class="menu-toggle"><i class="fas fa-times"></i></button>
+            <div class="mobile-logo">
+                <a href="index.html"><img src="assets/img/logo.svg" alt="Ovation"></a>
+            </div>
+            <div class="mobile-menu">
+  <ul>
+    <li><a href="index.html#hero">Beranda</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+    <li><a href="home-3.html">Peta & Direktori</a></li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Program & Pelatihan</a>
+      <ul class="sub-menu">
+        <li><a href="kalender-pelatihan.html">Kalender Pelatihan</a></li>
+        <li><a href="program-pembinaan.html">Program Pembinaan</a></li>
+        <li><a href="program-kerja-sama.html">Program Kerja Sama</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Kebijakan & Dokumen</a>
+      <ul class="sub-menu">
+        <li><a href="regulasi-peraturan.html">Regulasi & Peraturan</a></li>
+        <li><a href="dokumen-teknis.html">Dokumen Teknis</a></li>
+        <li><a href="publikasi-resmi.html">Publikasi Resmi</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Wawasan</a>
+      <ul class="sub-menu">
+        <li><a href="blog.html?cat=Berita">Berita</a></li>
+        <li><a href="blog.html?cat=Edukasi">Edukasi</a></li>
+        <li><a href="blog.html?cat=Kisah%20Sukses">Kisah Sukses</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Bantuan</a>
+      <ul class="sub-menu">
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="panduan.html">Panduan Penggunaan Website</a></li>
+        <li><a href="kontak.html">Kontak & Dukungan</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+            <div class="sidebar-wrap">
+                <h6>Kompleks Perkantoran KTC, Jalan Bung Hatta No.3,</h6>
+                <h6>Kuang, Taliwang, KSB</h6>
+            </div>
+            <div class="sidebar-wrap">
+                <h6>Pelayanan: Senin - Jumat </a></h6>
+                <h6>08.00 - 15.00 WITA</a></h6>
+            </div>
+            <div class="social-btn style3">
+                <a href="https://www.facebook.com/">
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                        <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                    </span>
+                </a>
+                <a href="https://instagram.com/">
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-instagram"></i></span>
+                        <span class="effect-1"><i class="fab fa-instagram"></i></span>
+                    </span>
+                </a>
+                <a href="https://twitter.com/">
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-twitter"></i></span>
+                        <span class="effect-1"><i class="fab fa-twitter"></i></span>
+                    </span>
+                </a>
+                <a href="https://dribbble.com/">
+                    <span class="link-effect">
+                        <span class="effect-1"><i class="fab fa-dribbble"></i></span>
+                        <span class="effect-1"><i class="fab fa-dribbble"></i></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="top"></div>
+
+    <!--==============================
+	Header Area
+    ==============================-->
+    <header class="nav-header header-layout2">
+        <div class="sticky-wrapper">
+            <!-- Main Menu Area -->
+            <div class="menu-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-between">
+                        <div class="col-auto">
+                            <div class="header-logo">
+                                <a href="index.html"><img src="assets/img/logo-white-sm.svg" alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-auto ms-auto">
+                            <nav class="main-menu d-none d-lg-inline-block">
+  <ul>
+    <li class="current-menu-item active"><a href="index.html#hero">Beranda</a></li>
+    <li><a href="tentang.html">Tentang</a></li>
+    <li><a href="home-3.html">Peta & Direktori</a></li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Program & Pelatihan</a>
+      <ul class="sub-menu">
+        <li><a href="kalender-pelatihan.html">Kalender Pelatihan</a></li>
+        <li><a href="program-pembinaan.html">Program Pembinaan</a></li>
+        <li><a href="program-kerja-sama.html">Program Kerja Sama</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Kebijakan & Dokumen</a>
+      <ul class="sub-menu">
+        <li><a href="regulasi-peraturan.html">Regulasi & Peraturan</a></li>
+        <li><a href="dokumen-teknis.html">Dokumen Teknis</a></li>
+        <li><a href="publikasi-resmi.html">Publikasi Resmi</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Wawasan</a>
+      <ul class="sub-menu">
+        <li><a href="blog.html?cat=Berita">Berita</a></li>
+        <li><a href="blog.html?cat=Edukasi">Edukasi</a></li>
+        <li><a href="blog.html?cat=Kisah%20Sukses">Kisah Sukses</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item-has-children">
+      <a href="#">Bantuan</a>
+      <ul class="sub-menu">
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="panduan.html">Panduan Penggunaan Website</a></li>
+        <li><a href="kontak.html">Kontak & Dukungan</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+                            <div class="navbar-right d-inline-flex d-lg-none">
+                                <button type="button" class="menu-toggle sidebar-btn">
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                    <span class="line"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="header-button">
+                                <button type="button" class="search-btn searchBoxToggler"><img src="assets/img/icon/search-white.svg" alt="icon">
+                                    <span class="link-effect">
+                                        <span class="effect-1">SEARCH</span>
+                                        <span class="effect-1">SEARCH</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--==============================
+    Hero Area
+    ==============================-->
+    <div class="hero-wrapper hero-2" id="hero">
+        <div class="hero-2-thumb wow img-custom-anim-right" data-wow-duration="1.5s" data-wow-delay="0.2s">
+            <img src="assets/img/hero/hero-2-1.jpg" alt="img">
+        </div>
+        <div class="container">
+            <div class="hero-style2">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <h1 class="hero-title wow img-custom-anim-right text-white">Pusat</h1>
+                        <h1 class="hero-title wow img-custom-anim-left text-white">IKM Kabupaten</h1>
+                    </div>
+                    <div class="col-lg-10 offset-lg-2">
+                        <h1 class="hero-title wow img-custom-anim-right text-white">Sumbawa Barat</h1>
+                    </div>
+                    <div class="col-xxl-5 col-xxl-7 col-lg-10">
+                        <p class="hero-text wow img-custom-anim-left text-white">Pusat data IKM Sumbawa Barat yang menyajikan peta & direktori pelaku, kalender pelatihan untuk publik dan IKM, serta informasi kebijakan perindustrian</p>
+                        <div class="btn-group fade_left">
+                        <a href="#peta-sebaran" class="btn style2 wow img-custom-anim-left">
+                            <span class="link-effect">
+                            <span class="effect-1">Telusuri Peta &amp; Direktori IKM</span>
+                            <span class="effect-1">Telusuri Peta &amp; Direktori IKM</span>
+                            </span>
+                        </a>
+                        <a href="#cta-daftar" class="btn style2 wow img-custom-anim-left">
+                            <span class="link-effect">
+                            <span class="effect-1">Daftarkan IKM Anda</span>
+                            <span class="effect-1">Daftarkan IKM Anda</span>
+                            </span>
+                        </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-xxl-6 col-xl-7 col-lg-9">
+                        <div class="wow img-custom-anim-right">
+                            <div class="hero-contact-wrap">
+                            Kompleks Perkantoran KTC, Jalan Bung Hatta No.3, Kuang, Taliwang, KSB
+                            </div>
+                            <div class="hero-contact-wrap">
+                            Pelayanan:
+                            <br>Senin - Jumat
+                            <br>(08.00 - 15.00 WITA)
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======== / Hero Section ========-->
+
+
+    <!--==============================
+    Marquee Area
+    ==============================-->
+    <div class="container-fluid p-0 overflow-hidden">
+        <div class="slider__marquee clearfix marquee-wrap">
+            <div class="marquee_mode marquee__group">
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Pusat IKM Kabupaten Sumbawa Barat</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Pusat IKM Kabupaten Sumbawa Barat</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Pusat IKM Kabupaten Sumbawa Barat</a></h6>
+                <h6 class="item m-item"><a href="#"><i class="fas fa-star-of-life"></i> Pusat IKM Kabupaten Sumbawa Barat</a></h6>
+            </div>
+        </div>
+    </div>
+
+
+<!--============================== Tentang Pusat IKM KSB (gaya home-3) ==============================-->
+<div class="why-area-1 space bg-theme" id="tentang">
+  <!-- Gambar kiri (dipaksa ke kiri dengan class tambahan) -->
+  <div class="why-img-1-1 shape-mockup left wow img-custom-anim-left" data-wow-duration="1.5s" data-wow-delay="0.2s">
+    <img src="assets/img/normal/why_3-1.jpg" alt="Pusat IKM KSB">
+  </div>
+  <div class="container">
+    <div class="row justify-content-end">
+      <!-- Teks di kanan -->
+      <div class="col-lg-6">
+        <div class="title-area mb-45">
+          <h2 class="sec-title wow img-custom-anim-right" data-wow-duration="1.2s" data-wow-delay="0.1s">
+            Tentang Pusat IKM KSB
+          </h2>
+        </div>
+        <p class="wow img-custom-anim-right mb-0" data-wow-duration="1.2s" data-wow-delay="0.2s">
+          <strong>Pusat IKM Kabupaten Sumbawa Barat (Pusat IKM KSB)</strong> adalah platform resmi yang dikelola
+          Dinas Koperasi, Perindustrian, dan Perdagangan (Diskoperindag) KSB untuk pendataan, pemetaan, dan layanan IKM.
+          Kami menyatukan data terverifikasi, peta interaktif SIG, direktori pelaku &amp; e-katalog, kalender pelatihan,
+          serta ringkasan kebijakan perindustrian dalam satu pintu. Tujuannya sederhana: data rapi, layanan tepat sasaran,
+          keputusan lebih cepat, agar pelaku IKM makin produktif dan produk lokal KSB makin kompetitif.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--========================== / Tentang Pusat IKM KSB ==========================-->
+
+
+
+<!--============================== Angka Kunci (gaya home-3 + animasi count) ==============================-->
+<div class="counter-area-1 space-bottom overflow-hidden mt-angka-fix" id="angka-kunci">
+  <div class="container">
+    <div class="row gy-40 align-items-stretch">
+      <div class="col-12 col-lg-3 col-counter">
+        <div class="counter-card wow img-custom-anim-up" data-wow-delay="0.1s">
+          <h3 class="counter-card_number"><span class="counter-number" id="count-ikm" data-target="0">0</span>+</h3>
+          <h4 class="counter-card_title">IKM Terdaftar</h4>
+          <p class="counter-card_text">Data IKM aktif di database resmi.</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-counter">
+        <div class="counter-card wow img-custom-anim-up" data-wow-delay="0.2s">
+          <h3 class="counter-card_number"><span class="counter-number" id="count-badan" data-target="0">0</span></h3>
+          <h4 class="counter-card_title">Jenis Badan Usaha</h4>
+          <p class="counter-card_text">Ragam entitas usaha yang terdaftar.</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-counter">
+        <div class="counter-card wow img-custom-anim-up" data-wow-delay="0.3s">
+          <h3 class="counter-card_number"><span class="counter-number" id="count-komoditas" data-target="0">0</span></h3>
+          <h4 class="counter-card_title">Komoditas</h4>
+          <p class="counter-card_text">Kategori produk/layanan IKM.</p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-counter last">
+        <div class="counter-card wow img-custom-anim-up" data-wow-delay="0.4s">
+          <h3 class="counter-card_number"><span class="counter-number" id="count-kecamatan" data-target="0">0</span></h3>
+          <h4 class="counter-card_title">Kecamatan</h4>
+          <p class="counter-card_text">Sebaran IKM di wilayah KSB.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--=========================== / Angka Kunci ===========================-->
+
+<!--============================== Peta & Direktori IKM ==============================-->
+<section class="space wow img-custom-anim-up" id="peta-sebaran" data-wow-duration="1.2s" data-wow-delay="0.05s">
+  <div class="container">
+    <div class="section-title text-center mb-30">
+      <h2 class="sec-title">Peta & Direktori IKM</h2>
+      <p>Telusuri pelaku IKM KSB melalui peta, pencarian, dan filter.</p>
+    </div>
+
+    <!-- MAP -->
+    <div class="ikm-map-wrap mb-30">
+      <div id="sebarMap" class="ikm-map"></div>
+    </div>
+
+    <!-- SEARCH (hitam) + tombol CARI -->
+    <div class="ikm-searchbar wow img-custom-anim-up mb-15" data-wow-delay="0.1s">
+      <input id="ikmSearchInput" class="ikm-search-input" placeholder="Nama IKM/Produk, Komoditas, atau Kecamatan….." autocomplete="off">
+      <button id="ikmSearchBtn" class="ikm-search-btn">CARI</button>
+    </div>
+
+    <!-- FILTER PILLS (kuning) -->
+    <div class="ikm-filter-row wow img-custom-anim-up" data-wow-delay="0.15s" id="ikmFilterRow">
+      <div class="filter-pill-wrap" data-filter="badan">
+        <button class="filter-pill">Badan Usaha</button>
+        <div class="filter-pop"><div class="opt-grid"></div></div>
+      </div>
+      <div class="filter-pill-wrap" data-filter="kel">
+        <button class="filter-pill">Kelurahan</button>
+        <div class="filter-pop"><div class="opt-grid"></div></div>
+      </div>
+      <div class="filter-pill-wrap" data-filter="kec">
+        <button class="filter-pill">Kecamatan</button>
+        <div class="filter-pop"><div class="opt-grid"></div></div>
+      </div>
+      <div class="filter-pill-wrap" data-filter="komod">
+        <button class="filter-pill">Komoditas</button>
+        <div class="filter-pop"><div class="opt-grid"></div></div>
+      </div>
+      <button id="btnResetFilter" class="filter-reset d-none">Hapus Filter</button>
+    </div>
+
+    <!-- HASIL: Award list (gaya home-10) -->
+    <div class="pt-70" id="ikmResultBlock">
+      <div class="award-area-1 space overflow-hidden">
+        <div class="container">
+          <!-- Anchor untuk scroll balik saat "Tutup" -->
+<div id="ikm-list-anchor"></div>
+
+<ul class="award-wrap-area" id="ikmAwardList"><!-- item via JS --></ul>
+
+<div class="text-center mt-20 d-none" id="ikmNoResult">
+  Tidak ditemukan IKM yang cocok.
+</div>
+
+<!-- GANTI blok ini -->
+<div class="text-center" id="ikmLoadMoreWrap">
+  <button id="ikmLoadMore" class="btn style2">Tampilkan Lebih Banyak</button>
+  <button id="ikmCollapse" class="btn btn-border" style="display:none">Tutup</button>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=========================== / Peta & Direktori IKM ===========================-->
+
+
+
+
+<!--==============================
+  Service Area (2 slide: Kecamatan & Komoditas)
+==============================-->
+<section class="space-top space-bottom bg-theme2" id="service-insight">
+  <div class="container">
+    <div class="swiper insightSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1: Sebaran Kecamatan -->
+        <div class="swiper-slide">
+          <div class="row gx-0 align-items-center">
+            <!-- Gambar kiri (ikut style home-2) -->
+            <div class="col-lg-6">
+              <div class="about-thumb img-custom-anim-left wow" data-wow-delay=".2s">
+                <img class="w-100" src="assets/img/ikm/chat.png" alt="Sebaran Kecamatan" loading="lazy">
+              </div>
+            </div>
+            <!-- Konten kanan -->
+            <div class="col-lg-6">
+              <div class="ps-lg-5 py-50">
+                <h2 class="title mb-20">Sebaran IKM di KSB</h2>
+                <p class="mb-30">
+                  Kami menyajikan data distribusi Industri Kecil Menengah (IKM) berdasarkan kecamatan.
+                  Persentase dihitung dari jumlah IKM aktif per kecamatan dibandingkan total IKM aktif.
+                </p>
+
+                <!-- Progress bars diisi JS -->
+                <div id="bars-kecamatan" class="insight-bars"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Sebaran Komoditas -->
+        <div class="swiper-slide">
+          <div class="row gx-0 align-items-center">
+            <!-- Gambar kiri (ikut style home-2) -->
+            <div class="col-lg-6">
+              <div class="about-thumb img-custom-anim-left wow" data-wow-delay=".2s">
+                <img class="w-100" src="assets/img/ikm/chat2.jpg" alt="Sebaran Komoditas" loading="lazy">
+              </div>
+            </div>
+            <!-- Konten kanan -->
+            <div class="col-lg-6">
+              <div class="ps-lg-5 py-50">
+                <h2 class="title mb-20">Sebaran Komoditas IKM di KSB</h2>
+                <p class="mb-30">
+                  Data ini menunjukkan persentase komoditas dari seluruh Industri Kecil Menengah (IKM) yang terdaftar. Persentase dihitung berdasarkan jumlah IKM per komoditas dibandingkan dengan total keseluruhan, sehingga dapat terlihat dominasi tiap sektor komoditas.
+                </p>
+
+                <!-- Progress bars diisi JS -->
+                <div id="bars-komoditas" class="insight-bars"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Dot pagination seperti testimoni di home-7 -->
+      <div class="swiper-pagination insight-pagination mt-30"></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+   
+
+    <!--==============================
+    Video Area
+    ==============================-->
+    <div class="video-area-1 overflow-hidden">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video-wrap">
+                        <div class="jarallax" data-bg-src="assets/img/normal/video_2-1.jpg">
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=6ppL-7eh0qw" class="play-btn circle-btn btn gsap-magnetic popup-video background-image">PLAY VIDEO
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--==============================
+    Blog Area (Frisk ORI, diisi lewat JSON)
+==============================-->
+<section class="blog-area space" id="home2-blog">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xxl-7 col-xl-6 col-lg-8">
+        <div class="title-area text-center">
+          <h2 class="sec-title">Baca Wawasan IKM Terbaru</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- grid 3 kolom — akan diinject oleh JS -->
+    <div class="row gy-30 justify-content-center" id="home2-blog-row"></div>
+  </div>
+</section>
+
+
+
+
+
+
+
+   
+
+<!--==============================
+    CTA Area
+    ==============================-->
+    <div class="cta-area-1 overflow-hidden bg-theme space" id="cta-daftar">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8 col-lg-10">
+                    <div class="title-area text-center mb-0">
+                        <h2 class="sec-title">Daftarkan IKM Anda</h2>
+                        <p class="sec-text mt-30 mb-40">
+                            Gabung ke database resmi IKM KSB untuk mendapatkan profil usaha online,
+                            akses pelatihan, dan informasi program pembinaan.
+                        </p>
+                        <div class="btn-group justify-content-center">
+                            <a href="https://forms.gle/Ns8ahExgWQYpkY619" target="_blank" rel="noopener" class="btn mt-0">
+                                <span class="link-effect">
+                                    <span class="effect-1">MULAI DAFTAR</span>
+                                    <span class="effect-1">MULAI DAFTAR</span>
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Disclaimer (baru) -->
+                        <p class="cta-disclaimer mt-20">
+                            Dengan mendaftar, Anda menyetujui publikasi data dasar usaha
+                            (nama, komoditas, kecamatan, kontak) di direktori publik.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--==============================
+        Footer Area
+    ==============================-->
+   
+
+        <div class="container">
+  <div class="widget-area space-top">
+    <div class="row justify-content-between">
+      <!-- ABOUT -->
+      <div class="col-md-6 col-xl-5 col-lg-6">
+        <div class="widget widget-about footer-widget">
+          <h3 class="widget_title">Tentang Pusat IKM KSB</h3>
+          <p class="about-text">
+            Pusat data IKM Sumbawa Barat: peta &amp; direktori pelaku, kalender pelatihan, dan informasi kebijakan perindustrian.
+          </p>
+          <div class="social-btn style3">
+            <a href="#">
+              <span class="link-effect">
+                <span class="effect-1"><i class="fab fa-facebook"></i></span>
+                <span class="effect-1"><i class="fab fa-facebook"></i></span>
+              </span>
+            </a>
+            <a href="#">
+              <span class="link-effect">
+                <span class="effect-1"><i class="fab fa-instagram"></i></span>
+                <span class="effect-1"><i class="fab fa-instagram"></i></span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- MENU UTAMA -->
+      <div class="col-md-3 col-xl-2 col-lg-3">
+        <div class="widget widget_nav_menu footer-widget">
+          <h3 class="widget_title">Menu</h3>
+          <div class="menu-all-pages-container list-column2">
+            <ul class="menu">
+              <li><a href="index.html#hero">Beranda</a></li>
+              <li><a href="tentang.html">Tentang</a></li>
+              <li><a href="home-3.html">Peta &amp; Direktori</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAVIGASI (DROPDOWN) -->
+      <div class="col-md-6 col-xl-3 col-lg-4">
+        <div class="widget widget_nav_menu footer-widget">
+          <h3 class="widget_title">Navigasi</h3>
+          <div class="menu-all-pages-container">
+            <ul class="menu footer-dropdown">
+              <!-- Program & Pelatihan -->
+              <li class="menu-item-has-children">
+                <a href="#">Program &amp; Pelatihan</a>
+                <button class="ft-caret" aria-label="toggle submenu"><i class="fas fa-chevron-down"></i></button>
+                <ul class="sub-menu">
+                  <li><a href="kalender-pelatihan.html">Kalender Pelatihan</a></li>
+                  <li><a href="program-pembinaan.html">Program Pembinaan</a></li>
+                  <li><a href="program-kerja-sama.html">Program Kerja Sama</a></li>
+                </ul>
+              </li>
+              <!-- Kebijakan & Dokumen -->
+              <li class="menu-item-has-children">
+                <a href="#">Kebijakan &amp; Dokumen</a>
+                <button class="ft-caret" aria-label="toggle submenu"><i class="fas fa-chevron-down"></i></button>
+                <ul class="sub-menu">
+                  <li><a href="regulasi-peraturan.html">Regulasi &amp; Peraturan</a></li>
+                  <li><a href="dokumen-teknis.html">Dokumen Teknis</a></li>
+                  <li><a href="publikasi-resmi.html">Publikasi Resmi</a></li>
+                </ul>
+              </li>
+              <!-- Wawasan -->
+              <li class="menu-item-has-children">
+                <a href="#">Wawasan</a>
+                <button class="ft-caret" aria-label="toggle submenu"><i class="fas fa-chevron-down"></i></button>
+                <ul class="sub-menu">
+                  <li><a href="blog.html?cat=Berita">Berita</a></li>
+                  <li><a href="blog.html?cat=Edukasi">Edukasi</a></li>
+                  <li><a href="blog.html?cat=Kisah%20Sukses">Kisah Sukses</a></li>
+                </ul>
+              </li>
+              <!-- Bantuan -->
+              <li class="menu-item-has-children">
+                <a href="#">Bantuan</a>
+                <button class="ft-caret" aria-label="toggle submenu"><i class="fas fa-chevron-down"></i></button>
+                <ul class="sub-menu">
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="panduan.html">Panduan Penggunaan Website</a></li>
+                  <li><a href="kontak.html">Kontak &amp; Dukungan</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- row -->
+  </div>
+</div>
+
+        <div class="container">
+  <div class="copyright-wrap">
+    <div class="row gy-3 justify-content-between align-items-center">
+      <div class="col-md-6">
+        <p>Kompleks Perkantoran KTC, Jalan Bung Hatta No.3,<br>Kuang, Taliwang, KSB</p>
+      </div>
+      <div class="col-md-6 align-self-center text-md-end">
+        <p class="copyright-text mb-0">
+          Pelayanan: Senin – Jumat<br>08.00 – 15.30
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--********************************
+			Code End  Here
+	******************************** -->
+
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+
+
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+
+    <script src="assets/js/twinmax.js"></script>
+    <script src="assets/js/imageRevealHover.js"></script>
+    <script src="assets/js/jarallax.min.js"></script>
+    <script src="assets/js/jquery.marquee.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/wow.js"></script>
+
+    <!-- Main Js File -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    (function () {
+    // Smooth scroll untuk anchor (termasuk Beranda -> #hero)
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){
+        a.addEventListener('click', function(e){
+        var id = a.getAttribute('href'), target = document.querySelector(id);
+        if (target){ e.preventDefault(); target.scrollIntoView({behavior:'smooth'}); }
+        });
+    });
+
+    // Klik parent menu hanya toggle submenu (tidak pindah halaman)
+    document.addEventListener('click', function (e) {
+        var a = e.target.closest('a');
+        if (!a) return;
+        var isParent = a.matches(
+        '.menu > li.menu-item-has-children > a,'+
+        '.navbar-nav > li.menu-item-has-children > a,'+
+        '.offcanvas-body li.menu-item-has-children > a,'+
+        '.th-mobile-menu li.menu-item-has-children > a'
+        );
+        if (!isParent) return;
+        e.preventDefault();
+        var li = a.closest('li'), sub = li && li.querySelector(':scope > ul');
+        var expanded = a.getAttribute('aria-expanded') === 'true';
+        a.setAttribute('aria-expanded', (!expanded).toString());
+        li.classList.toggle('open');
+        if (sub){ sub.style.display = (sub.style.display === 'block') ? '' : 'block'; }
+    });
+    })();
+    </script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <script src="assets/js/pusat-ikm.js?v=2"></script>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+   
+   
+
+
+
+<script>
+
+</script>
+
+<script>
+  (function(){
+    document.querySelectorAll('.footer-menu .submenu-toggle').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        const li = btn.closest('li');
+        const isOpen = li.classList.toggle('open');
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+    });
+  })();
+</script>
+
+<script src="assets/js/blog-feed.js"></script>
+
+<script>
+(async function(){
+  const wrap = document.getElementById('blog-latest-grid');
+  if (!wrap) return;
+
+  // Helper: format tanggal Indonesia
+  const fmtDate = (d) => new Date(d).toLocaleDateString('id-ID', { day:'2-digit', month:'long', year:'numeric' });
+
+  // Fallback data jika fetch gagal (minimal 3 entries agar UI tetap muncul)
+  const FALLBACK = [
+    { title:"Digitalisasi Produk Lokal: Strategi Masuk Pasar Online", date:"2025-09-01", category:"Edukasi", slug:"digitalisasi-produk-lokal", image:"assets/img/ikm/ikm10.jpg" },
+    { title:"Bupati Buka Pelatihan Digitalisasi untuk 50 IKM", date:"2025-09-04", category:"Berita", slug:"bupati-buka-pelatihan-digitalisasi-50-ikm", image:"assets/img/ikm/ikm01.jpg" },
+    { title:"Dari Desa ke Dunia: Tenun Lokal Diminati Pasar Eropa", date:"2025-08-31", category:"Kisah Sukses", slug:"tenun-lokal-diminati-pasar-eropa", image:"assets/img/ikm/ikm03.jpg" }
+  ];
+
+  // Resolve path relatif aman (kalau page berada di subfolder)
+  // Misal semua HTML ada di root templat frisk-v.1.3
+  const jsonPath = (function(){
+    // Coba deteksi kalau halaman ada di subdir /pages/
+    const path = window.location.pathname;
+    // Kalau sudah mengandung '/frisk-v.1.3/' cukup relative dari situ
+    if (path.includes('/frisk-v.1.3/')) return 'assets/data/articles.json';
+    // Default:
+    return 'assets/data/articles.json';
+  })();
+
+  let items = [];
+  try {
+    const res = await fetch(jsonPath, { cache: 'no-store' });
+    if (!res.ok) throw new Error(res.status);
+    items = await res.json();
+  } catch (e) {
+    console.warn('Gagal memuat articles.json, pakai fallback:', e);
+    items = FALLBACK;
+  }
+
+  // Sort newest first, ambil 3
+  items.sort((a,b)=> new Date(b.date) - new Date(a.date));
+  const latest = items.slice(0,3);
+
+  const card = (it, idx) => `
+    <div class="blog-grid-static">
+      <div class="blog-grid wow img-custom-anim-right" data-wow-duration="1s" data-wow-delay="${0.1 + idx*0.1}s">
+        <div class="blog-img">
+          <a href="blog-details.html?slug=${encodeURIComponent(it.slug)}">
+            <img src="${it.image}" alt="blog image">
+          </a>
+        </div>
+        <div class="blog-content">
+          <div class="post-meta-item blog-meta">
+            <a href="blog.html?cat=${encodeURIComponent(it.category)}">${fmtDate(it.date)}</a>
+            <a href="blog.html?cat=${encodeURIComponent(it.category)}">${it.category}</a>
+          </div>
+          <h4 class="blog-title">
+            <a href="blog-details.html?slug=${encodeURIComponent(it.slug)}">${it.title}</a>
+          </h4>
+          <a href="blog-details.html?slug=${encodeURIComponent(it.slug)}" class="link-btn">
+            <span class="link-effect">
+              <span class="effect-1">BACA SELENGKAPNYA</span>
+              <span class="effect-1">BACA SELENGKAPNYA</span>
+            </span>
+            <img src="assets/img/icon/arrow-left-top.svg" alt="icon">
+          </a>
+        </div>
+      </div>
+    </div>`;
+
+  wrap.innerHTML = latest.map(card).join('');
+
+  // Re-init animasi WOW bila tersedia
+  if (typeof WOW !== 'undefined') new WOW().init();
+})();
+</script>
+
+
+
+
+
+
+
+
+<script>
+(function(){
+  function base(){
+    const seg = location.pathname.split('/').filter(Boolean);
+    const i = seg.indexOf('frisk-v.1.3');
+    return (i>-1? '/'+seg.slice(0,i+1).join('/')+'/' : '/frisk-v.1.3/');
+  }
+  const BASE = base();
+  const wrap = document.getElementById('blog-latest-grid');
+  if(!wrap) return;
+
+  function u(rel){ if(/^https?:|^\//.test(rel)) return rel; return BASE+rel.replace(/^\.?\//,''); }
+  function tgl(d){ try{return new Date(d).toLocaleDateString('id-ID',{day:'2-digit',month:'long',year:'numeric'})}catch(e){return d} }
+  const FB = Array.from({length:12},(_,i)=>`assets/img/ikm/ikm${String(i+1).padStart(2,'0')}.jpg`);
+
+  async function load(){
+    let items=[];
+    try{
+      const res = await fetch(u('assets/data/articles.json'), {cache:'no-store'});
+      if(!res.ok) throw new Error(res.status);
+      items = await res.json();
+    }catch(e){
+      items = [
+        {"title":"Digitalisasi Produk Lokal: Strategi Masuk Pasar Online","date":"2025-09-01","category":"Edukasi","slug":"digitalisasi-produk-lokal","image":"assets/img/ikm/ikm10.jpg"},
+        {"title":"Bupati Buka Pelatihan Digitalisasi untuk 50 IKM","date":"2025-09-04","category":"Berita","slug":"bupati-buka-pelatihan-digitalisasi-50-ikm","image":"assets/img/ikm/ikm01.jpg"},
+        {"title":"Dari Desa ke Dunia: Tenun Lokal Diminati Pasar Eropa","date":"2025-08-31","category":"Kisah Sukses","slug":"tenun-lokal-diminati-pasar-eropa","image":"assets/img/ikm/ikm06.jpg"}
+      ];
+    }
+    items.sort((a,b)=> new Date(b.date)-new Date(a.date));
+    const latest = items.slice(0,3);
+
+    wrap.innerHTML = latest.map((it,i)=>{
+      const fb = u(FB[i%FB.length]);
+      const img = u(it.image||fb);
+      return `
+      <div class="blog-grid-static">
+        <div class="blog-grid wow img-custom-anim-right" data-wow-duration="1s" data-wow-delay="${0.1+i*0.1}s">
+          <div class="blog-img">
+            <a href="${u('blog-details.html')}?slug=${encodeURIComponent(it.slug)}">
+              <img src="${img}" alt="blog image" onerror="this.onerror=null;this.src='${fb}'">
+            </a>
+          </div>
+          <div class="blog-content">
+            <div class="post-meta-item blog-meta">
+              <a href="${u('blog.html')}?cat=${encodeURIComponent(it.category)}">${tgl(it.date)}</a>
+              <a href="${u('blog.html')}?cat=${encodeURIComponent(it.category)}">${it.category}</a>
+            </div>
+            <h4 class="blog-title"><a href="${u('blog-details.html')}?slug=${encodeURIComponent(it.slug)}">${it.title}</a></h4>
+            <a href="${u('blog-details.html')}?slug=${encodeURIComponent(it.slug)}" class="link-btn">
+              <span class="link-effect"><span class="effect-1">BACA SELENGKAPNYA</span><span class="effect-1">BACA SELENGKAPNYA</span></span>
+              <img src="${u('assets/img/icon/arrow-left-top.svg')}" alt="icon">
+            </a>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    if(typeof WOW!=='undefined') new WOW().init();
+  }
+  document.addEventListener('DOMContentLoaded', load);
+})();
+</script>
+
+
+
+
+<script src="assets/js/blog-latest-home2.js"></script>
+
+<script>
+(function(){
+  const wrap = document.querySelector('#blog-cards'); // grid asli Frisk
+  if(!wrap) return;
+
+  function u(rel){return 'assets/'+rel.replace(/^assets\//,'');}
+  function tgl(d){try{return new Date(d).toLocaleDateString('id-ID',{day:'2-digit',month:'long',year:'numeric'})}catch(e){return d}}
+
+  async function load(){
+    const res = await fetch('assets/data/articles.json');
+    const items = await res.json();
+    items.sort((a,b)=> new Date(b.date)-new Date(a.date));
+    const latest = items.slice(0,3);
+
+    wrap.innerHTML = latest.map((it,i)=>`
+      <div class="col-lg-4 col-md-6">
+        <div class="blog-grid wow img-custom-anim-up" data-wow-duration="1s" data-wow-delay="${0.1+i*0.1}s">
+          <div class="blog-img">
+            <a href="blog-details.html?slug=${encodeURIComponent(it.slug)}">
+              <img src="${it.image}" alt="">
+            </a>
+          </div>
+          <div class="blog-content">
+            <div class="post-meta-item blog-meta">
+              <span>${tgl(it.date)}</span> • <span>${it.category}</span>
+            </div>
+            <h4 class="blog-title">
+              <a href="blog-details.html?slug=${encodeURIComponent(it.slug)}">${it.title}</a>
+            </h4>
+          </div>
+        </div>
+      </div>`).join('');
+  }
+  document.addEventListener('DOMContentLoaded', load);
+})();
+</script>
+
+<!-- Loader 3 artikel terbaru (khusus home-2) -->
+<script src="assets/js/home2-blog-latest.js"></script>
+
+</body>
+
+</html>

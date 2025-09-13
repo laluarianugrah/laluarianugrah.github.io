@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "tab": "regulasi",
+      "label": "Regulasi & Peraturan",
+      "desc": "Perda, Perbup, dan aturan teknis perindustrian yang berlaku di KSB."
+    },
+    {
+      "tab": "teknis",
+      "label": "Dokumen Teknis",
+      "desc": "Panduan, SOP, spesifikasi, dan dokumen pendukung teknis untuk IKM."
+    },
+    {
+      "tab": "publikasi",
+      "label": "Publikasi Resmi",
+      "desc": "Laporan, siaran pers, dan terbitan resmi bidang perindustrian KSB."
+    }
+  ]
+}

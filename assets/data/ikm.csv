@@ -1,0 +1,51 @@
+﻿ID;Nama IKM;Nama Pemilik;Badan Usaha;Komoditas;Jenis Produk;Kecamatan;Desa/Kel;Alamat (Jalan/Dusun);Telepon;Latitude;Longitude;Whatsapp;Instagram;Website;Tahun Berdiri;Foto URL;Status;Tanggal Update;Key_BU;IsFirst_BU;Key_Komoditas;IsFirst_Komoditas;Key_Kecamatan;IsFirst_Kecamatan
+IKM1;Las Berkah;Rifa'i;Perorangan;Logam dan Elektronika;Teralis, Atap, Gerbang;Taliwang;Menala;RT/RW 002/008;81234567890;-8.74733;116.856;81234567890;penjahitaan;;2024;assets/img/ikm/1-1.jpg;Aktif;2025-09-04 00:00:00;UD;1;Sandang;1;Taliwang;1
+IKM10;Daffabhy;Sugiati;CV;Pangan;Olahan Kue;Seteluk;Tapir;;;-8.68726;116.82079;;;;2024;assets/img/ikm/ikm-10.jpg;Aktif;2025-07-21;;;;;;
+IKM11;Mariyani Cake;Mariyani;PO;Pangan;Olahan Kue;Maluk;Benete;;;-8.9136;116.75661;;;;2017;assets/img/ikm/ikm-11.jpg;Aktif;2025-06-29;;;;;;
+IKM12;UD. Ira;Mardin;PO;Kerajinan;Meubel Kayu;Jereweh;Belo;;;-8.84641;116.85343;;;;2011;assets/img/ikm/ikm-12.jpg;Aktif;2025-07-20;;;;;;
+IKM13;Pengrajin Tangan Marda;Mardawati;PO;Kerajinan;Tepi/Ayakan;Brang Ene;Mujahidin;;;-8.69184;116.8231;;;;2010;assets/img/ikm/ikm-13.jpg;Aktif;2025-08-14;;;;;;
+IKM14;UD. Berkat Usaha;Madelaw;PO;Kerajinan;Lemari, Pintu, Ranjang, dan lain-lain;Jereweh;Goa;;;-8.84248;116.8255;;;;2012;assets/img/ikm/ikm-14.jpg;Aktif;2025-08-17;;;;;;
+IKM15;Sudaryo;Sudaryo;Koperasi;Logam dan Elektronika;Parang besi, dan Pahat;Taliwang;Arken;;;-8.72255;116.84466;;;;2020;assets/img/ikm/ikm-15.jpg;Aktif;2025-07-29;;;;;;
+IKM16;Abon Pasir Putih;Martini;PO;Pangan;Pengolahan Abon Ikan;Poto Tano;Poto Tano;;;-8.59225;116.83863;;;;2024;assets/img/ikm/ikm-16.jpg;Aktif;2025-07-14;;;;;;
+IKM17;Sumber Riski;Mastah;CV;Kerajinan;Meubel;Sekongkang;Tatar;;;-8.8773;116.81444;;;;2021;assets/img/ikm/ikm-17.jpg;Aktif;2025-06-24;;;;;;
+IKM18;UD. Tiga F;Sri Wahyuni;UD;Pangan;Olahan Roti dan Kue;Brang Rea;Tepas;;;-8.68047;116.90497;;;;2018;assets/img/ikm/ikm-18.jpg;Aktif;2025-06-29;;;;;;
+IKM19;UD. Kawa Rama;Yuspita;UD;Pangan;Kopi Rarak;Brang Rea;Rarak;;;-8.70854;116.90583;;;;2012;assets/img/ikm/ikm-19.jpg;Aktif;2025-06-16;;;;;;
+IKM2;UD. Riskii;Ramli Muhammad;UD;Logam dan Elektronika;Etalase, Rolling Door, dan lain-lain;Taliwang;Dalam;RT/RW 002/009;81234567896;-8.7358;116.85;81234567896;;;2022;assets/img/ikm/4-1.jpeg;Aktif;2025-09-05 00:00:00;UD;0;Pangan;1;Taliwang;0
+IKM20;Tortila Karomah;Sri Karomh;PO;Pangan;Pengolahan Tortila;Poto Tano;Kokarlian;;;-8.63404;116.86354;;;;2016;assets/img/ikm/ikm-20.jpg;Aktif;2025-08-28;;;;;;
+IKM21;Rapulung ART;Ibrahim Has;PO;Kerajinan;Tas, Bunga, Dompet, dan lain-lain;Jereweh;Dasan Anyar;;;-8.83709;116.854;;;;2016;assets/img/ikm/ikm-21.jpg;Aktif;2025-07-12;;;;;;
+IKM22;Pamili Las;Nasrullah;CV;Logam dan Elektronika;Tralis, Pagar Besi;Sekongkang;Sekongkang A;;;-8.91665;116.77894;;;;2019;assets/img/ikm/ikm-22.jpg;Aktif;2025-08-21;;;;;;
+IKM23;Kelompok Saling Pariri;M. Saad;PO;Logam dan Elektronika;Pagar dari Logam;Jereweh;Beru;;;-8.85506;116.82902;;;;2022;assets/img/ikm/ikm-23.jpg;Aktif;2025-08-23;;;;;;
+IKM24;Jajan Keliling Aktif;Siti Aminah;PO;Pangan;Olahan Kue;Maluk;Bukit Damai;;;-8.91863;116.73034;;;;2017;assets/img/ikm/ikm-24.jpg;Aktif;2025-06-06;;;;;;
+IKM25;Aulia Catering;Anti Arianti;PO;Pangan;Olahan Kue;Maluk;Bukit Damai;;;-8.89747;116.75214;;;;2010;assets/img/ikm/ikm-25.jpg;Aktif;2025-07-27;;;;;;
+IKM26;Meubel Tari Opik;Hariyanto;PO;Kerajinan;Lemari, Kursi, Ranjang dan Pintu;Maluk;Benete;;;-8.90056;116.7616;;;;2016;assets/img/ikm/ikm-26.jpg;Aktif;2025-08-31;;;;;;
+IKM27;UD. Syukur;Dudung Suprianto;UD;Logam dan Elektronika;Konstruksi Pergudangan;Taliwang;Sampir;;;-8.77216;116.85363;;;;2013;assets/img/ikm/ikm-27.jpg;Aktif;2025-07-20;;;;;;
+IKM28;UD. Wahabbu;Hadan Al Kadri;UD;Logam dan Elektronika;Etalase, Kusen, Rak, Pintu;Taliwang;Kuang;;;-8.74067;116.83091;;;;2014;assets/img/ikm/ikm-28.jpg;Aktif;2025-06-30;;;;;;
+IKM29;UD. Baraq;Maulidia Rizkiana Putri;PO;Pengolahan Limbah;Briket Arang Kayu;Jereweh;Beru;;;-8.83922;116.84897;;;;2012;assets/img/ikm/ikm-29.jpg;Aktif;2025-08-11;;;;;;
+IKM3;UD. Sasak Betonn;Abdul Muhid;UD;Kimia dan Bahan Bangunan;Batu Bata;Seteluk;Seteluk Tengah;RT/RW 001/002;81234567894;-8.65692;116.878;81234567894;;;2021;assets/img/ikm/madu.jpg;Aktif;2025-09-06 00:00:00;CV;1;Pangan;0;Seteluk;1
+IKM30;UD. Sopi;Herumansyah;UD;Kerajinan;Meubel;Brang Ene;Manemeng;;;-8.67117;116.88548;;;;2023;assets/img/ikm/ikm-30.jpg;Aktif;2025-08-07;;;;;;
+IKM31;Datu Mongal;A. Hamid;CV;Kimia dan Bahan Bangunan;Batu Bata;Seteluk;Tapir;;;-8.64558;116.8277;;;;2014;assets/img/ikm/ikm-31.jpg;Aktif;2025-08-23;;;;;;
+IKM32;UD. Dum Dum;Merry Kembang Parwita;UD;Pangan;Olahan Makanan;Sekongkang;Kemuning;;;-8.89532;116.79971;;;;2016;assets/img/ikm/ikm-32.jpg;Aktif;2025-06-22;;;;;;
+IKM33;Las Sunan;Sopan Sunan Jaya;UD;Logam dan Elektronika;Tralis, Pagar Besi;Taliwang;Sampir;;;-8.75955;116.87182;;;;2022;assets/img/ikm/ikm-33.jpg;Aktif;2025-07-14;;;;;;
+IKM34;Bengkel Las Saher;Dedi Hartono;PO;Logam dan Elektronika;Begkel Las;Taliwang;Menala;;;-8.74564;116.84576;;;;2019;assets/img/ikm/ikm-34.jpg;Aktif;2025-07-19;;;;;;
+IKM35;UD. Damira;Tikawati;UD;Kerajinan;Bros, Bunga Hiasan, dan lain-lain;Seteluk;Seteluk Tengah;;;-8.66348;116.88796;;;;2023;assets/img/ikm/ikm-35.jpg;Aktif;2025-07-13;;;;;;
+IKM36;UD. Datu Bayung;Kaharuddin;UD;Pangan;Kopi Rarak;Brang Rea;Rarak;;;-8.68258;116.90323;;;;2011;assets/img/ikm/ikm-36.jpg;Aktif;2025-08-21;;;;;;
+IKM37;UD. Pameata;Farhan;UD;Logam dan Elektronika;Perhiasan;Taliwang;Arken;;;-8.72342;116.85058;;;;2024;assets/img/ikm/ikm-37.jpg;Aktif;2025-08-22;;;;;;
+IKM38;Kube Karya Tani;Timoryati;PO;Pangan;Stik Gurita;Poto Tano;Tua Nanga;;;-8.57063;116.82695;;;;2016;assets/img/ikm/ikm-38.jpg;Aktif;2025-06-25;;;;;;
+IKM39;Bi.Beads;Windiaz Jasmine Nupus;Perorangan;Kerajinan;Kerajinan Manik-Manik;Seteluk;Meraran;;;-8.6416;116.88276;;;;2024;assets/img/ikm/ikm-39.jpg;Aktif;2025-08-12;;;;;;
+IKM4;Kelompok Teratai Putih;Nurti Muhklis;PO;Pengolahan Limbah;Kerajinan Bunga Limbah;Seteluk;Meraran;RT/RW 003/002;81234567891;-8.67848;116.831;81234567891;;;2005;assets/img/ikm/13-1.jpg;Aktif;2025-09-07 00:00:00;PO;1;Kimia dan Bahan Bangunan;1;Seteluk;0
+IKM40;UD. Fatimah;Fatimah;UD;Pangan;Olahan Kue;Seteluk;Tapir;;;-8.68778;116.86809;;;;2014;assets/img/ikm/ikm-40.jpg;Aktif;2025-08-14;;;;;;
+IKM41;Ninik Cake;Ninik Lestari;UD;Pangan;Olahan Kue;Poto Tano;Kiantar;;;-8.63322;116.87495;;;;2012;assets/img/ikm/ikm-41.jpg;Aktif;2025-06-15;;;;;;
+IKM42;UD. Adlyn;Adlyn;UD;Pangan;Olahan Sate Kuda;Brang Rea;Tepas;;;-8.70127;116.92729;;;;2018;assets/img/ikm/ikm-42.jpg;Aktif;2025-08-17;;;;;;
+IKM43;Pengrajin Meubelir Sagiri;Sagiri;PO;Kerajinan Meubel;Meubel;Brang Ene;Lampok;;;-8.67151;116.86365;;;;2017;assets/img/ikm/ikm-43.jpg;Aktif;2025-06-16;;;;;;
+IKM44;Pengrajin Meubelir Gani;A. Gani;PO;Kerajinan Meubel;Meubel;Brang Ene;Lampok;;;-8.7136;116.8397;;;;2021;assets/img/ikm/ikm-44.jpg;Aktif;2025-06-29;;;;;;
+IKM45;UD. Bunda Zizi;Anita;UD;Pangan;Olahan Roti dan Kue;Brang Rea;Sapugara;;;-8.7149;116.91756;;;;2017;assets/img/ikm/ikm-45.jpg;Aktif;2025-07-22;;;;;;
+IKM46;Keripik Imran;Imran;UD;Pangan;Keripik;Poto Tano;Senayan;;;-8.59223;116.86804;;;;2014;assets/img/ikm/ikm-46.jpg;Aktif;2025-06-04;;;;;;
+IKM47;UD. Rizki Cipta;Sukarmen;UD;Logam dan Elektronika;Pembuatan Etalase Alumunium;Seteluk;Seteluk Tengah;;;-8.65688;116.85606;;;;2019;assets/img/ikm/ikm-47.jpg;Aktif;2025-07-30;;;;;;
+IKM48;UD. Batu Tiram;Nurbaya;PO;Kerajinan;Lemari, Pintu, Kosen, dan lain-lain;Jereweh;Dasan Anyar;;;-8.83416;116.83515;;;;2022;assets/img/ikm/ikm-48.jpg;Aktif;2025-07-07;;;;;;
+IKM49;Lilis Bata;Syamsul Hadi;PO;Kimia dan Bahan Bangunan;Batu Bata;Maluk;Mantun;;;-8.89948;116.75147;;;;2014;assets/img/ikm/ikm-49.jpg;Aktif;2025-08-19;;;;;;
+IKM5;UD. Atri;Awanuddin;Perorangan;Logam dan Elektronika;Bengkel Las;Poto Tano;Tambak Sari;RT/RW 002/010;81234567894;-8.60673;116.861;81234567894;;;2023;assets/img/ikm/8-1.jpg;Aktif;2025-09-07 00:00:00;Perorangan;1;Hasil Hutan;1;Poto Tano;1
+IKM50;Ekonomi Kreatif;L. Saher;PO;Kerajinan;Kerajinan Tangan;Jereweh;Jelenga;;;-8.8407;116.8031;;;;2020;assets/img/ikm/ikm-50.jpg;Aktif;2025-07-17;;;;;;
+IKM6;UB. Paving Blok;Musmulyadi;UB;Kimia dan Bahan Bangunan;Paving Block;Maluk;Maluk;RT/RW 001/003;81234567891;-8.91065;116.751;81234567891;;;2025;assets/img/ikm/16-1.jpg;Aktif;2025-09-07 00:00:00;PO;0;Logam dan Elektronika;1;Maluk;1
+IKM7;Saleng Beme;M. Syahrul;PO;Logam dan Elektronika;Pagar dari Logam;Jereweh;Beru;RT/RW 003/003;81234567894;-8.85625;116.824;81234567894;;;2002;assets/img/ikm/11-1.jpeg;Aktif;2025-09-07 00:00:00;PO;0;Kerajinan;1;Jereweh;1
+IKM8;Poklaksar Putri Cipta Karya;Israwati;Koperasi;Pangan;Olahan Kue;Brang Rea;Desa Beru;RT/RW 002/011;81234567891;-8.73381;116.895;81234567891;;;2015;assets/img/ikm/2-1.jpg;Aktif;2025-09-07 00:00:00;PT;1;Kerajinan;0;Brang Rea;1
+IKM9;UD. Ofi Firdaus;Jannatul Firdaus;UD;Pangan;Kue Donat;Brang Rea;Sapugara;RT/RW 001/004;81234567894;-8.72666;116.911;81234567894;;;2018;assets/img/ikm/1-2.jpg;Aktif;2025-09-07 00:00:00;PO;0;Sandang;0;Brang Rea;0

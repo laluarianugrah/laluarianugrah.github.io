@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "tab": "kalender",
+      "label": "Kalender Pelatihan",
+      "href": "kalender-pelatihan.html",
+      "desc": "Jadwal pelatihan IKM—daftar & ikuti sesi."
+    },
+    {
+      "tab": "pembinaan",
+      "label": "Program Pembinaan",
+      "href": "program-pembinaan.html",
+      "desc": "Pendampingan mutu, legalitas, pemasaran."
+    },
+    {
+      "tab": "kerjasama",
+      "label": "Program Kerja Sama",
+      "href": "program-kerja-sama.html",
+      "desc": "Kolaborasi IKM dengan mitra & pemerintah."
+    }
+  ]
+}

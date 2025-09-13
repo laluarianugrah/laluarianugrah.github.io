@@ -1,0 +1,363 @@
+/* ====== HILANGKAN GRADIENT OVERLAY DI KARTU BLOG (home-2) ====== */
+#home2-blog .blog-card.style2 .blog-img::before,
+#home2-blog .blog-card.style2 .blog-img::after,
+#home2-blog .blog-card.style2::before,
+#home2-blog .blog-card.style2::after {
+  content: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  opacity: 0 !important;
+  display: none !important;
+}
+
+/* Beberapa tema pakai masking/gradient di IMG-nya */
+#home2-blog .blog-card.style2 .blog-img,
+#home2-blog .blog-card.style2 .blog-img img {
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  filter: none !important;
+}
+
+/* ====== JANGAN TIMPA FOTO DENGAN META (tarik konten ke bawah) ====== */
+#home2-blog .blog-card.style2 .blog-content {
+  position: static !important;     /* biasanya relative + ditarik ke atas */
+  margin-top: 16px !important;     /* kasih jarak kecil dari foto */
+}
+
+/* Pastikan meta tampil normal (bukan absolute di atas gambar) */
+#home2-blog .blog-card.style2 .blog-content .post-meta-item.blog-meta {
+  position: static !important;
+  display: flex !important;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Optional: kalau hover bikin gelap lagi, matikan */
+#home2-blog .blog-card.style2:hover .blog-img::before,
+#home2-blog .blog-card.style2:hover .blog-img::after {
+  display: none !important;
+  opacity: 0 !important;
+}
+
+
+/* Spacing antara gambar dan meta (home-2, kartu style2) */
+#home2-blog .blog-card.style2 .blog-img {
+  margin-bottom: 10px !important;   /* beri jarak kecil dari foto */
+}
+
+#home2-blog .blog-card.style2 .blog-content {
+  position: static !important;
+  margin-top: 24px !important;      /* tambah jarak konten dari foto */
+}
+
+/* Biar baris tanggal • kategori gak dempet */
+#home2-blog .blog-card.style2 .post-meta-item.blog-meta {
+  display: flex !important;
+  gap: 12px !important;
+  align-items: center;
+  line-height: 1.4;
+
+}
+/* ===== Peta & Direktori: Counter separators ===== */
+#ksb-counters .counter-card_number { white-space: nowrap; } /* angka + + tidak pecah baris */
+#ksb-counters .counter-col { position: relative; }
+
+/* Tampilkan garis pemisah di desktop; sembunyikan di tablet/HP */
+@media (min-width: 1200px) {
+  #ksb-counters .counter-col:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 8px;             /* boleh disesuaikan */
+    bottom: 8px;          /* tinggi garis */
+    right: 0;
+    width: 1px;
+    background: var(--frisk-border, #E7E7E7);
+    opacity: .95;
+  }
+  #ksb-counters .counter-card {
+    padding-right: 24px;  /* jarak dari garis */
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #ksb-counters .counter-col::after { display: none; }
+  #ksb-counters .counter-card { padding-right: 0; }
+}
+/* ===== Counter Peta & Direktori (home-3) ===== */
+#home3-counters .counter-card_number { white-space: nowrap; }
+#home3-counters .counter-col { position: relative; }
+
+/* Garis '|' otomatis di desktop */
+@media (min-width: 1200px) {
+  #home3-counters .counter-col:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    width: 1px;
+    background: var(--frisk-border, #E7E7E7);
+    opacity: .95;
+  }
+  #home3-counters .counter-card {
+    padding-right: 28px;
+  }
+}
+
+/* Tablet & mobile: tanpa garis, biar gak berantakan saat wrap */
+@media (max-width: 1199.98px) {
+  #home3-counters .counter-col::after { display: none; }
+  #home3-counters .counter-card { padding-right: 0; }
+}
+/* ====== Sidebar Kategori (copy feel "Artikel Terbaru") ====== */
+
+/* Top-level judul kategori = pakai kelas .title seperti di sidebar post */
+.sidebar__cat-list .list-wrap > li > .title { 
+  margin: 0 0 12px;             /* sama ritme dengan sidebar post */
+}
+.sidebar__cat-list .list-wrap > li > .title a {
+  display: block;               /* area klik lebar */
+}
+
+/* Dropdown container */
+.sidebar__cat-list .cat-sub {
+  display: none;                /* default hidden */
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height .55s cubic-bezier(.2,.7,.2,1), opacity .35s ease;
+  margin-top: 10px;
+}
+
+/* Saat .open di-apply di <li>, JS akan set display:block + max-height */
+.sidebar__cat-list .list-wrap > li.open > .cat-sub { /* display diatur via JS */ }
+
+/* Di dalam .cat-sub kita gunakan markup "sidebar__post-item" milik template,
+   jadi TIDAK PERLU override ukuran thumb/teks — akan otomatis seragam
+   dengan "Artikel Terbaru". */
+
+/* Sentuhan kecil untuk mobile */
+@media (max-width: 991.98px) {
+  .sidebar__cat-list .list-wrap > li > .title { margin-bottom: 10px; }
+}
+
+
+/* Tentang (home-5): Lebarkan box deskripsi hero tanpa ganggu mobile */
+@media (min-width: 992px){
+  .hero-5 .hero-style5 .hero-text{
+    max-width: 860px;      /* default template cenderung sempit; kita lebarkan sedikit */
+  }
+}
+@media (min-width: 1400px){
+  .hero-5 .hero-style5 .hero-text{
+    max-width: 980px;      /* ekstra lega untuk layar sangat lebar */
+  }
+}
+
+
+
+
+
+
+/* ===== Footer dropdown (desktop: hover, mobile: click) ===== */
+.footer-widget .menu.footer-dropdown > li {
+  position: relative;
+}
+
+/* tombol caret (ikon panah) */
+.footer-widget .menu.footer-dropdown > li > .ft-caret{
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin-left: 8px;
+  color: currentColor;
+  cursor: pointer;
+  line-height: 1;
+}
+.footer-widget .menu.footer-dropdown > li > .ft-caret i{
+  transition: transform .25s ease;
+  font-size: 12px;
+}
+
+/* Submenu default tertutup */
+.footer-widget .menu.footer-dropdown .sub-menu{
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: max-height .35s ease, opacity .25s ease, transform .25s ease;
+  will-change: max-height, opacity, transform;
+}
+
+/* Desktop (pointer punya hover): buka saat hover/focus-within */
+@media (hover:hover){
+  .footer-widget .menu.footer-dropdown > li:hover > .sub-menu,
+  .footer-widget .menu.footer-dropdown > li:focus-within > .sub-menu{
+    max-height: 360px; /* cukup utk 3–5 item */
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .footer-widget .menu.footer-dropdown > li:hover > .ft-caret i{
+    transform: rotate(180deg);
+  }
+}
+
+/* Mobile/Touch: buka saat class .open ditambahkan via JS */
+.footer-widget .menu.footer-dropdown > li.open > .sub-menu{
+  max-height: 360px;
+  opacity: 1;
+  transform: translateY(0);
+}
+.footer-widget .menu.footer-dropdown > li.open > .ft-caret i{
+  transform: rotate(180deg);
+}
+
+/* Submenu spacing tetap mengikuti tema */
+.footer-widget .sub-menu li a{
+  display: inline-block;
+  padding: 6px 0;
+}
+
+
+/* ===== Footer dropdown (desktop: hover, mobile: click) ===== */
+.footer-widget .menu.footer-dropdown > li { position: relative; }
+
+.footer-widget .menu.footer-dropdown > li > .ft-caret{
+  background: transparent; border: 0; padding: 0; margin-left: 8px;
+  color: currentColor; cursor: pointer; line-height: 1;
+}
+.footer-widget .menu.footer-dropdown > li > .ft-caret i{
+  transition: transform .25s ease; font-size: 12px;
+}
+
+/* Submenu default tertutup */
+.footer-widget .menu.footer-dropdown .sub-menu{
+  max-height: 0; overflow: hidden; opacity: 0; transform: translateY(-4px);
+  transition: max-height .35s ease, opacity .25s ease, transform .25s ease;
+  will-change: max-height, opacity, transform;
+}
+
+/* Desktop: buka saat hover/focus */
+@media (hover:hover){
+  .footer-widget .menu.footer-dropdown > li:hover > .sub-menu,
+  .footer-widget .menu.footer-dropdown > li:focus-within > .sub-menu{
+    max-height: 360px; opacity: 1; transform: translateY(0);
+  }
+  .footer-widget .menu.footer-dropdown > li:hover > .ft-caret i{
+    transform: rotate(180deg);
+  }
+}
+
+/* Mobile: toggle .open lewat JS */
+.footer-widget .menu.footer-dropdown > li.open > .sub-menu{
+  max-height: 360px; opacity: 1; transform: translateY(0);
+}
+.footer-widget .menu.footer-dropdown > li.open > .ft-caret i{
+  transform: rotate(180deg);
+}
+
+/* Map responsive */
+.widget-map .map-embed{
+  position: relative; width: 100%; padding-top: 56.25%; /* 16:9 */
+}
+.widget-map .map-embed iframe{
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  border: 0; border-radius: 12px;
+}
+
+
+
+
+
+/* Map responsive */
+.widget-map .map-embed{ position:relative; width:100%; padding-top:56.25%; }
+.widget-map .map-embed iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:12px; }
+
+/* Footer dropdown (desktop hover, mobile tap) */
+.footer-widget .menu.footer-dropdown > li { position:relative; }
+.footer-widget .menu.footer-dropdown > li > .ft-caret{ background:transparent; border:0; padding:0; margin-left:8px; color:currentColor; cursor:pointer; line-height:1; }
+.footer-widget .menu.footer-dropdown > li > .ft-caret i{ transition:transform .25s ease; font-size:12px; }
+.footer-widget .menu.footer-dropdown .sub-menu{
+  max-height:0; overflow:hidden; opacity:0; transform:translateY(-4px);
+  transition:max-height .35s ease, opacity .25s ease, transform .25s ease; will-change:max-height,opacity,transform;
+}
+@media (hover:hover){
+  .footer-widget .menu.footer-dropdown > li:hover > .sub-menu,
+  .footer-widget .menu.footer-dropdown > li:focus-within > .sub-menu{
+    max-height:360px; opacity:1; transform:translateY(0);
+  }
+  .footer-widget .menu.footer-dropdown > li:hover > .ft-caret i{ transform:rotate(180deg); }
+}
+.footer-widget .menu.footer-dropdown > li.open > .sub-menu{ max-height:360px; opacity:1; transform:translateY(0); }
+.footer-widget .menu.footer-dropdown > li.open > .ft-caret i{ transform:rotate(180deg); }
+
+
+.widget-map .map-embed{position:relative;width:100%;padding-top:56.25%}
+.widget-map .map-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:12px}
+
+.footer-widget .menu.footer-dropdown > li{position:relative}
+.footer-widget .menu.footer-dropdown > li > .ft-caret{background:transparent;border:0;padding:0;margin-left:8px;color:inherit;cursor:pointer;line-height:1}
+.footer-widget .menu.footer-dropdown > li > .ft-caret i{transition:transform .25s ease;font-size:12px}
+.footer-widget .menu.footer-dropdown .sub-menu{max-height:0;overflow:hidden;opacity:0;transform:translateY(-4px);transition:max-height .35s ease,opacity .25s ease,transform .25s ease}
+@media (hover:hover){
+  .footer-widget .menu.footer-dropdown > li:hover > .sub-menu{max-height:360px;opacity:1;transform:translateY(0)}
+  .footer-widget .menu.footer-dropdown > li:hover > .ft-caret i{transform:rotate(180deg)}
+}
+.footer-widget .menu.footer-dropdown > li.open > .sub-menu{max-height:360px;opacity:1;transform:translateY(0)}
+.footer-widget .menu.footer-dropdown > li.open > .ft-caret i{transform:rotate(180deg)}
+
+
+
+
+
+/* Header kuning khusus Beranda */
+.nav-header.header-layout2 .menu-area.bg-theme {
+  background-color: var(--theme-color) !important; /* pakai warna tema kuning */
+}
+
+/* Teks menu gelap di atas kuning */
+.menu-area.bg-theme .main-menu > ul > li > a {
+  color: var(--title-color) !important;
+}
+
+/* State aktif + hover */
+.menu-area.bg-theme .main-menu > ul > li.current-menu-item > a,
+.menu-area.bg-theme .main-menu > ul > li > a:hover {
+  opacity: .9;
+  color: var(--title-color) !important;
+}
+
+/* Ikon search agar tetap terlihat di header kuning */
+.menu-area.bg-theme .header-button .search-btn img {
+  filter: invert(0); /* biarkan gelap/default */
+}
+
+
+
+/* (OPSIONAL) Footer sub-menu buka saat hover di layar besar */
+@media (min-width: 992px) {
+  .footer-accordion .has-sub:hover > .sub-menu {
+    display: block !important;
+  }
+}
+
+
+/* FOOTER dropdown base (mobile collapsed) */
+.footer-dropdown .sub-menu{
+  display:none;
+  overflow:hidden;
+  max-height:0;
+  transition:max-height .3s ease;
+  will-change:max-height;
+}
+
+/* Sembunyikan caret di desktop, pakai hover */
+@media (min-width: 992px){
+  .footer-dropdown .ft-caret{ display:none; }
+  .footer-dropdown .menu-item-has-children:hover > .sub-menu{
+    display:block !important;
+    max-height:500px; /* cukup besar agar muat isi */
+  }
+}
+
+
